@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   get 'pages/pag1'
+
+  get 'pages/pag1'
   root 'pages#pag1'
-end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
